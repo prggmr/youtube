@@ -40,4 +40,4 @@ interval(function() use ($range){
         }
     }
     echo PHP_EOL;
-}, 30)[0]->event($event);
+}, 5)[0]->event($event);
